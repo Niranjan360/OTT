@@ -1,0 +1,84 @@
+{
+    "movies": [
+        {
+        "synopsis": "Manu and Priya are made for each other but their story takes a dark turn. Can their love survive in this real world?",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDkyOTIwYWItZjU3NS00ZTZmLWE1MTgtZWVjOTFlMDM3MThhXkEyXkFqcGdeQXVyMTA1NzEzOTU1._V1_.jpg",
+        "banner": "https://www.shmoti.com/ImageFiles/Image_555x271/20230829_Banner_SSEPart120230829.jpg",
+        "movieName": "sapta sagaradaache ello",
+        "hero": "Rakshit Shetty",
+        "heroine": "Rukmini Vasanth",
+        "director": "Hemanth M.Rao",
+        "rating": "4.5 stars",
+        "genre": ["Drama", "Romantic"],
+        "casting": [
+            "Rakshit Shetty as Manu",
+            "Rukmini Vasanth as Priya",
+            "Chaithra J. Achar as Surabhi",
+            "Achyuth Kumar as Prabhu",
+            "Pavitra Lokesh as Priya's mother",
+            "Avinash as Shankre Gowda",
+            "Sharath Lohithaswa as Patila",
+            "Ramesh Indira as Soma",
+            "Gopal Krishna Deshpande as a prisoner",
+            "Ashok Sharma as a prisoner",
+            "Ashwin Hassan as a prisoner",
+            "Sunil Kulkarni as a prisoner",
+            "Rajesh S Rao as Priya's father",
+            "Havish Sreenath as Andy, assistant to music director Bhargava"
+        ],
+        "trailer": "https://www.youtube.com/embed/hcJ1ZHHahMA?si=ytfHftE3eLMUUoI6"
+        },
+        {
+        "synopsis": "Anand (Anand Deverakonda) and Vaishnavi (Vaishnavi Chaitanya) have been together since they were in school. A new boy (Viraj Ashwin) and a new lifestyle change it all for these lovers.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNThmOTIzOGMtOGRlYi00OWZkLWI3Y2EtY2FhZmY5MThmNjBmXkEyXkFqcGdeQXVyNjQ1MDcxNzM@._V1_FMjpg_UX1000_.jpg",
+        "banner": "https://cdn.123telugu.com/content/wp-content/uploads/2023/07/Baby.jpg",
+        "movieName": "Baby",
+        "hero": "Anand Deverakonda",
+        "heroine": "Vaishnavi Chaitanya",
+        "director": "Sai Rajesh Neelam",
+        "rating": "4.5 stars",
+        "genre": ["Drama"],
+        "casting": [
+            "Vaishnavi Chaitanya as Vaishnavi Vaishu",
+            "Anand Devarakonda as Anand",
+            "Viraj Ashwin as Viraj Ashwin",
+            "Nagendra Babu as Vaishnavi's father",
+            "Prabhavati Varma as Anand's mother",
+            "Lirisha Kunapareddy as Vaishnavi's mother",
+            "Harsha Chemudu as Harsha, Anand's friend",
+            "Sathvik Anand as Sathvik, Anand's friend",
+            "Kusuma Degalamari as Kusuma, Vaishnavi's friend",
+            "Kirrak Seetha as Seetha, Vaishnavi's college mate",
+            "Vadlamani Srinivas as Viraj's father",
+            "Sai Prasad Goud as Financer"
+        ],
+        "trailer": "https://www.youtube.com/embed/_npN4uwDMLk?si=pPrjyrMeAD243WwZ"
+        },
+        {
+        "synopsis": "Muthuvel Pandian, a stern yet compassionate jailer, sets out to stop a gang when they try to flee their leader from prison.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDA5YzlhNjItMDgxNC00MjQ4LWIzMDMtYTUyMzBhNjViNDk3XkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_.jpg",
+        "banner": "https://www.hindustantimes.com/ht-img/img/2023/08/19/1600x900/jailer_box_office_tamil_nadu_1692416829885_1692416841022.jpg",
+        "movieName": "Jailer",
+        "hero": "RajiniKanth",
+        "heroine": "",
+        "director": "Nelson DilipKumar",
+        "rating": "4.5 stars",
+        "genre": ["Action", "Comedy"],
+        "casting": [
+            "Rajinikanth as Tiger Muthuvel Pandian",
+            "Vinayakan as Varman",
+            "Ramya Krishnan as Vijaya  Pandian, Muthuvel's wife",
+            "Vasanth Ravi as ACP Arjun Pandian, Muthuvel and Viji's son",
+            "Tamannaah as Kamna",
+            "Sunil as Blast Mohan",
+            "Yogi Babu as Vimal",
+            "Mirnaa Menon as Swetha Pandian, Arjun's wife",
+            "Rithvik as Rithvik Rithu  Pandian, Muthuvel's grandson",
+            "Harshad as Dhanraj",
+            "Jaffer Sadiq as Dokinath",
+            "G. Marimuthu as Panneer"
+        ],
+        "trailer": "https://www.youtube.com/embed/Y5BeWdODPqo?si=LCavGAdONk3X6ojK"
+        }
+    ]
+}
