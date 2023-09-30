@@ -1,84 +1,313 @@
 {
-    "movies": [
-        {
-        "synopsis": "Manu and Priya are made for each other but their story takes a dark turn. Can their love survive in this real world?",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMDkyOTIwYWItZjU3NS00ZTZmLWE1MTgtZWVjOTFlMDM3MThhXkEyXkFqcGdeQXVyMTA1NzEzOTU1._V1_.jpg",
-        "banner": "https://www.shmoti.com/ImageFiles/Image_555x271/20230829_Banner_SSEPart120230829.jpg",
-        "movieName": "sapta sagaradaache ello",
-        "hero": "Rakshit Shetty",
-        "heroine": "Rukmini Vasanth",
-        "director": "Hemanth M.Rao",
-        "rating": "4.5 stars",
-        "genre": ["Drama", "Romantic"],
-        "casting": [
-            "Rakshit Shetty as Manu",
-            "Rukmini Vasanth as Priya",
-            "Chaithra J. Achar as Surabhi",
-            "Achyuth Kumar as Prabhu",
-            "Pavitra Lokesh as Priya's mother",
-            "Avinash as Shankre Gowda",
-            "Sharath Lohithaswa as Patila",
-            "Ramesh Indira as Soma",
-            "Gopal Krishna Deshpande as a prisoner",
-            "Ashok Sharma as a prisoner",
-            "Ashwin Hassan as a prisoner",
-            "Sunil Kulkarni as a prisoner",
-            "Rajesh S Rao as Priya's father",
-            "Havish Sreenath as Andy, assistant to music director Bhargava"
+  "movies": [
+    {
+      "id": 1,
+      "synopsis": "Manu and Priya are made for each other but their story takes a dark turn. Can their love survive in this real world?",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDkyOTIwYWItZjU3NS00ZTZmLWE1MTgtZWVjOTFlMDM3MThhXkEyXkFqcGdeQXVyMTA1NzEzOTU1._V1_.jpg",
+      "banner": "https://www.shmoti.com/ImageFiles/Image_555x271/20230829_Banner_SSEPart120230829.jpg",
+      "movieName": "sapta sagaradaache ello",
+      "hero": "Rakshit Shetty",
+      "heroine": "Rukmini Vasanth",
+      "director": "Hemanth M.Rao",
+      "rating": "4.5 stars",
+      "genre": [
+        "Drama",
+        "Romantic"
+      ],
+      "casting": [
+        "Rakshit Shetty as Manu",
+        "Rukmini Vasanth as Priya",
+        "Chaithra J. Achar as Surabhi",
+        "Achyuth Kumar as Prabhu",
+        "Pavitra Lokesh as Priya's mother",
+        "Avinash as Shankre Gowda",
+        "Sharath Lohithaswa as Patila",
+        "Ramesh Indira as Soma",
+        "Gopal Krishna Deshpande as a prisoner",
+        "Ashok Sharma as a prisoner",
+        "Ashwin Hassan as a prisoner",
+        "Sunil Kulkarni as a prisoner",
+        "Rajesh S Rao as Priya's father",
+        "Havish Sreenath as Andy, assistant to music director Bhargava"
+      ],
+      "trailer": "https://www.youtube.com/embed/hcJ1ZHHahMA?si=ytfHftE3eLMUUoI6"
+    },
+    {
+      "id": 2,
+      "synopsis": "Anand (Anand Deverakonda) and Vaishnavi (Vaishnavi Chaitanya) have been together since they were in school. A new boy (Viraj Ashwin) and a new lifestyle change it all for these lovers.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNThmOTIzOGMtOGRlYi00OWZkLWI3Y2EtY2FhZmY5MThmNjBmXkEyXkFqcGdeQXVyNjQ1MDcxNzM@._V1_FMjpg_UX1000_.jpg",
+      "banner": "https://cdn.123telugu.com/content/wp-content/uploads/2023/07/Baby.jpg",
+      "movieName": "Baby",
+      "hero": "Anand Deverakonda",
+      "heroine": "Vaishnavi Chaitanya",
+      "director": "Sai Rajesh Neelam",
+      "rating": "4.5 stars",
+      "genre": [
+        "Drama"
+      ],
+      "casting": [
+        "Vaishnavi Chaitanya as Vaishnavi Vaishu",
+        "Anand Devarakonda as Anand",
+        "Viraj Ashwin as Viraj Ashwin",
+        "Nagendra Babu as Vaishnavi's father",
+        "Prabhavati Varma as Anand's mother",
+        "Lirisha Kunapareddy as Vaishnavi's mother",
+        "Harsha Chemudu as Harsha, Anand's friend",
+        "Sathvik Anand as Sathvik, Anand's friend",
+        "Kusuma Degalamari as Kusuma, Vaishnavi's friend",
+        "Kirrak Seetha as Seetha, Vaishnavi's college mate",
+        "Vadlamani Srinivas as Viraj's father",
+        "Sai Prasad Goud as Financer"
+      ],
+      "trailer": "https://www.youtube.com/embed/_npN4uwDMLk?si=pPrjyrMeAD243WwZ"
+    },
+    {
+      "id": 3,
+      "synopsis": "Muthuvel Pandian, a stern yet compassionate jailer, sets out to stop a gang when they try to flee their leader from prison.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDA5YzlhNjItMDgxNC00MjQ4LWIzMDMtYTUyMzBhNjViNDk3XkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_.jpg",
+      "banner": "https://www.hindustantimes.com/ht-img/img/2023/08/19/1600x900/jailer_box_office_tamil_nadu_1692416829885_1692416841022.jpg",
+      "movieName": "Jailer",
+      "hero": "RajiniKanth",
+      "heroine": "",
+      "director": "Nelson DilipKumar",
+      "rating": "4.5 stars",
+      "genre": [
+        "Action",
+        "Comedy"
+      ],
+      "casting": [
+        "Rajinikanth as Tiger Muthuvel Pandian",
+        "Vinayakan as Varman",
+        "Ramya Krishnan as Vijaya  Pandian, Muthuvel's wife",
+        "Vasanth Ravi as ACP Arjun Pandian, Muthuvel and Viji's son",
+        "Tamannaah as Kamna",
+        "Sunil as Blast Mohan",
+        "Yogi Babu as Vimal",
+        "Mirnaa Menon as Swetha Pandian, Arjun's wife",
+        "Rithvik as Rithvik Rithu  Pandian, Muthuvel's grandson",
+        "Harshad as Dhanraj",
+        "Jaffer Sadiq as Dokinath",
+        "G. Marimuthu as Panneer"
+      ],
+      "trailer": "https://www.youtube.com/embed/Y5BeWdODPqo?si=LCavGAdONk3X6ojK"
+    },
+    {
+        "id": 4,
+        "synopsis": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
+        "poster": "https://i.etsystatic.com/23402008/r/il/9219f8/2326581048/il_fullxfull.2326581048_5a78.jpg",
+        "banner": "https://i.pinimg.com/originals/82/ac/de/82acde7fc5bbe1787c563c2d420f8b47.jpg",
+        "movieName": "Guardians of the Galaxy",
+        "hero": "Chris Pratt",
+        "heroine": "Vin Diesel",
+        "director": "James Gunn",
+        "rating": "4.8 stars",
+        "genre": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
         ],
-        "trailer": "https://www.youtube.com/embed/hcJ1ZHHahMA?si=ytfHftE3eLMUUoI6"
-        },
-        {
-        "synopsis": "Anand (Anand Deverakonda) and Vaishnavi (Vaishnavi Chaitanya) have been together since they were in school. A new boy (Viraj Ashwin) and a new lifestyle change it all for these lovers.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNThmOTIzOGMtOGRlYi00OWZkLWI3Y2EtY2FhZmY5MThmNjBmXkEyXkFqcGdeQXVyNjQ1MDcxNzM@._V1_FMjpg_UX1000_.jpg",
-        "banner": "https://cdn.123telugu.com/content/wp-content/uploads/2023/07/Baby.jpg",
-        "movieName": "Baby",
-        "hero": "Anand Deverakonda",
-        "heroine": "Vaishnavi Chaitanya",
-        "director": "Sai Rajesh Neelam",
-        "rating": "4.5 stars",
-        "genre": ["Drama"],
         "casting": [
-            "Vaishnavi Chaitanya as Vaishnavi Vaishu",
-            "Anand Devarakonda as Anand",
-            "Viraj Ashwin as Viraj Ashwin",
-            "Nagendra Babu as Vaishnavi's father",
-            "Prabhavati Varma as Anand's mother",
-            "Lirisha Kunapareddy as Vaishnavi's mother",
-            "Harsha Chemudu as Harsha, Anand's friend",
-            "Sathvik Anand as Sathvik, Anand's friend",
-            "Kusuma Degalamari as Kusuma, Vaishnavi's friend",
-            "Kirrak Seetha as Seetha, Vaishnavi's college mate",
-            "Vadlamani Srinivas as Viraj's father",
-            "Sai Prasad Goud as Financer"
+          "Chris Pratt",
+          "Vin Diesel",
+          " Bradley Cooper",
+          "Zoe Saldana"
         ],
-        "trailer": "https://www.youtube.com/embed/_npN4uwDMLk?si=pPrjyrMeAD243WwZ"
-        },
-        {
-        "synopsis": "Muthuvel Pandian, a stern yet compassionate jailer, sets out to stop a gang when they try to flee their leader from prison.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNDA5YzlhNjItMDgxNC00MjQ4LWIzMDMtYTUyMzBhNjViNDk3XkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_.jpg",
-        "banner": "https://www.hindustantimes.com/ht-img/img/2023/08/19/1600x900/jailer_box_office_tamil_nadu_1692416829885_1692416841022.jpg",
-        "movieName": "Jailer",
-        "hero": "RajiniKanth",
-        "heroine": "",
-        "director": "Nelson DilipKumar",
-        "rating": "4.5 stars",
-        "genre": ["Action", "Comedy"],
-        "casting": [
-            "Rajinikanth as Tiger Muthuvel Pandian",
-            "Vinayakan as Varman",
-            "Ramya Krishnan as Vijaya  Pandian, Muthuvel's wife",
-            "Vasanth Ravi as ACP Arjun Pandian, Muthuvel and Viji's son",
-            "Tamannaah as Kamna",
-            "Sunil as Blast Mohan",
-            "Yogi Babu as Vimal",
-            "Mirnaa Menon as Swetha Pandian, Arjun's wife",
-            "Rithvik as Rithvik Rithu  Pandian, Muthuvel's grandson",
-            "Harshad as Dhanraj",
-            "Jaffer Sadiq as Dokinath",
-            "G. Marimuthu as Panneer"
-        ],
-        "trailer": "https://www.youtube.com/embed/Y5BeWdODPqo?si=LCavGAdONk3X6ojK"
-        }
-    ]
+        "trailer": "https://www.youtube.com/embed/JqcncLPi9zw?si=t4seLtAV2qye8-5c"
+      },
+    {
+      "synopsis": "Following clues to the origin of mankind, a team finds a structure on a distant moon, but they soon realize they are not alone.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY3NzIyNTA2NV5BMl5BanBnXkFtZTcwNzE2NjI4Nw@@._V1_FMjpg_UX1000_.jpg",
+      "banner": "",
+      "movieName": "Prometheus",
+      "hero": "Logan Marshall",
+      "heroine": "Noomi Rapace",
+      "director": "Ridley Scott",
+      "rating": "4.6 stars",
+      "genre": [
+        "Adventure",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "casting": [
+        "Noomi Rapace",
+        " Logan Marshall-Green",
+        " Michael Fassbender",
+        "Charlize Theron"
+      ],
+      "trailer": "https://www.youtube.com/embed/HHcHYisZFLU?si=H_VDin-IHrCosL3e"
+    },
+    {
+      "synopsis": "Three girls are kidnapped by a man with a diagnosed 23 distinct personalities. They must try to escape before the apparent emergence of a frightful new 24th.",
+      "poster": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f4485c53033383.592593fcbdd4f.jpg",
+      "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRtfqx8-HN59-v-_7RidwlchWuyVE6h1LwopLfYyXUeA&s",
+      "movieName": "Split",
+      "hero": "James McAvoy",
+      "heroine": " Anya Taylor-Joy",
+      "director": "M. Night Shyamalan",
+      "rating": "4.9 stars",
+      "genre": [
+        "Horror",
+        "Thriller"
+      ],
+      "casting": [
+        "James McAvoy",
+        " Anya Taylor-Joy",
+        " Haley Lu Richardson",
+        " Jessica Sula"
+      ],
+      "trailer": "https://www.youtube.com/embed/U58Om9LXYFs?si=Lr30t5ml2C_iXo2z"
+    },
+    {
+      "synopsis": "In a city of humanoid animals, a hustling theater impresario's attempt to save his theater with a singing competition becomes grander than he anticipates even as its finalists' ",
+      "poster": "https://cdn.cinematerial.com/p/297x/rq3vtp6u/sing-movie-poster-md.jpg?v=1481458757",
+      "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrlWT8vxS6cXsAYX48xNq4pxjt6pN-oRQHdFPZsNuQEw&s",
+      "movieName": "Sing",
+      "hero": "Matthew McConaughey",
+      "heroine": "Reese Witherspoon",
+      "director": "Christophe Lourdelet",
+      "rating": "4.1 stars",
+      "genre": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "casting": [
+        "Matthew McConaughey",
+        "Reese Witherspoon",
+        "Seth MacFarlane",
+        " Scarlett Johansson"
+      ],
+      "trailer": "https://www.youtube.com/embed/9qPgK_u4vX8?si=00EE9OFFZ-qHStB-"
+    },
+    {
+      "synopsis": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse.",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdeEdR4RDhfUVr1rncZCsnuxu0sSr_m7rOp69roIU&s",
+      "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCZrw8MSuRkXkBvP5RNj8P5oX3hJrSblT2INa-6YI36w&s",
+      "movieName": "Suicide Squad",
+      "hero": "Reese Witherspoon",
+      "heroine": "Matthew McConaughey",
+      "director": "Christophe Lourdelet",
+      "rating": "3.8 stars",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "casting": [
+        "Matthew McConaughey",
+        "Reese Witherspoon",
+        " Seth MacFarlane",
+        "Scarlett Johansson"
+      ],
+      "trailer": "https://www.youtube.com/embed/CmRih_VtVAs?si=PupQvMtg0Gfl1m4Z"
+    },
+    {
+      "synopsis": "European mercenaries searching for black powder become embroiled in the defense of the Great Wall of China against a horde of monstrous creatures.",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtntO1p2hjOFnP3nHtVKP7SOr6l9itNOwkkgIH94K&s",
+      "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU39_PTmlLODS9ntVPSvDoRPJghuGWGikyUPSSegkj1A&s",
+      "movieName": "The Great Wall",
+      "hero": "Matt Damon",
+      "heroine": " Andy Lau",
+      "director": "Yimou Zhang",
+      "rating": "4.2 stars",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "casting": [
+        "Matt Damon",
+        "Tian Jing",
+        "Willem Dafoe",
+        "Andy Lau"
+      ],
+      "trailer": "https://www.youtube.com/embed/6SKI9rgqFck?si=Pet6mKd22nBn3xxa"
+    },
+    {
+      "synopsis": "A jazz pianist falls for an aspiring actress in Los Angeles.",
+      "poster": "https://www.tallengestore.com/cdn/shop/products/LalaLand1_0a153431-5c02-4613-a489-82e2470800c8.jpg?v=1568977047",
+      "banner": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f8b2ef92655071.5e505bf7132ab.png",
+      "movieName": "La La Land",
+      "hero": "Ryan Gosling",
+      "heroine": "Emma Stone",
+      "director": "Damien Chazelle",
+      "rating": "",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Music"
+      ],
+      "casting": [
+        "Ryan Gosling",
+        "Emma Stone",
+        "Rosemarie DeWitt",
+        "J.K. Simmons"
+      ],
+      "trailer": "https://www.youtube.com/embed/0pdqf4P9MB8?si=MKC171_8wFBrvPwe"
+    },
+    {
+      "synopsis": "A has-been actor best known for playing the title character in the 1980s detective series Mindhorn must work with the police when a serial killer says that he will only speak ",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrbksDfyb08z6tTjvbEBpGY3TpCod5aBBzvCETVFCV&s",
+      "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeGFSyV1kZcIAA7xmyF8dw-scRWqfz7l7IMwe1ndlblg&s",
+      "movieName": "Mindhorn",
+      "hero": "Essie Davis",
+      "heroine": "Andrea Riseborough",
+      "director": "Sean Foley",
+      "rating": "3.9 stars",
+      "genre": [
+        "Comedy"
+      ],
+      "casting": [
+        "Essie Davis",
+        "Andrea Riseborough",
+        "Julian Barratt",
+        "Kenneth Branagh"
+      ],
+      "trailer": "https://www.youtube.com/embed/_oDHNhPxjsM?si=n_zNX5b8elOXRI2h"
+    },
+    {
+      "synopsis": "A true-life drama, centering on British explorer Col. Percival Fawcett, who disappeared while searching for a mysterious city in the Amazon in the 1920s.",
+      "poster": "data:image/jpeg;base64,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",
+      "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-IPyBfbLWUlRMKZWawcnTI808NFRvRYN7Sug-5gdyNQ&s",
+      "movieName": "The Lost City of Z",
+      "hero": "Charlie Hunnam",
+      "heroine": "Sienna Miller",
+      "director": "James Gray",
+      "rating": "3.5 stars",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Biography"
+      ],
+      "casting": [
+        "Charlie Hunnam",
+        "Robert Pattinson",
+        "Sienna Miller",
+        "Tom Holland"
+      ],
+      "trailer": "https://www.youtube.com/embed/yqGDNvX1F4g?si=KcFSvJL7zxfZA-En"
+    },
+    {
+      "synopsis": "A spacecraft traveling to a distant colony planet and transporting thousands of people has a malfunction in its sleep chambers. As a result, two passengers are awakened 90 years early.",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsqKOw3v_rMcYvruDeZYHlnArfjo7EDEc0FD155hPH&s",
+      "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD-172yYSbXdYujsDYweBM9dgHHzRnmLpmkIEQ_MerYXY1fouWJzmpZ7RMS7gJscblzTc&usqp=CAU",
+      "movieName": "Passengers",
+      "hero": "Chris Pratt",
+      "heroine": "Jennifer Lawrence",
+      "director": "Morten Tyldum",
+      "rating": "4.7 stars",
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Romance"
+      ],
+      "casting": [
+        "Jennifer Lawrence",
+        "Chris Pratt",
+        "Michael Sheen",
+        "Laurence Fishburne"
+      ],
+      "trailer": "https://www.youtube.com/embed/7BWWWQzTpNU?si=F4MgQ8sV_2SwmZNN"
+    }
+  ]
 }

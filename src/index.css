@@ -13,10 +13,14 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 2345;
 }
-.logo{
+.logo a{
   font-size: 30px;
   color: white;
+  text-decoration:none;
 }
 .searchbar input{
   width: 200px;
@@ -42,4 +46,106 @@ nav{
 
 .home{
   color: black;
+  /* background:radial-gradient(#ff8a00,#e52e71); */
+  /* background-color: grey; */
 }
+.movies-list{
+  width: 90%;
+  margin: 50px auto;
+ 
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.movie{
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  margin: 0px 10px;
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  background-color: #0B0C10;
+  color: white;
+
+}
+.movie img{
+  width: 100%;
+  height: 60%;
+  object-fit: scale-down;
+}
+.movie h1{
+  font-size: 15px;
+}
+
+.trailer-link{
+  background: linear-gradient(transparent , rgb(60, 60, 70));
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  transition: 0.3s;
+
+  color: white;
+  text-decoration: none;
+  padding: auto;
+}
+.movie:hover .trailer-link{
+  top: 0%;
+}
+
+.title{
+  background-color: white;
+  position: sticky;
+  top: 70px;
+  z-index: 1000;
+}
+
+/* --------------loder------------*/
+
+.loader{
+    background-color: transparent;
+    width :200px ;
+    height :200px;
+    border-top: dotted 10px #e52e71;
+    border-right: dotted 10px #e52e71;
+    border-bottom: solid 10px transparent;
+    border-left: solid 10px transparent;
+
+
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+    animation: load 1s infinite linear;
+}
+@keyframes load {
+  0%{
+    transform: translate(-50% , -50%) rotate(0deg);
+  }
+  100%{
+    transform: translate(-50% , -50%) rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+/* .loader:hover{
+  transform: scale(360deg);
+  transform: rotate(360deg);
+  transition: 2s;
+} */

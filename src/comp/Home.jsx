@@ -1,8 +1,12 @@
 import { useEffect, useState } from "react";
+import Movieslist from "./Movieslist";
 
-const Home = () => {
+const Home = () => {''
 
     const [movies, setMovies] = useState(null);
+    const [error, setError] = useState(null);
+    const [pending, setPending] = useState(true);
+
 
     useEffect(()=>{
         setTimeout(()=>{
@@ -11,30 +15,39 @@ const Home = () => {
             .then((data)=>{
                 console.log(data);
                 setMovies(data);
+                setPending(false)
             })
-        } , 3000)
+            .catch((err)=>{setError(err.message);})
+        } , 1000)
     } ,[] )
 
 
     return ( 
         <div className="home">
-            <h1>ALL MOVIES</h1>
+            
             <hr />
 
-            {movies==null  && <h1>Loading ..................</h1>}
+            {error && <h1>{error}</h1>}
 
-            {movies && <div className="movies-list">
-                            {
-                                movies.map((movie)=>{
-                                    return(
-                                        <div className="movie">
-                                            <h1>Moviename : {movie.movieName} </h1>
-                                            <img src={movie.poster} alt="" width="200px" height="300px"/>
-                                        </div>
-                                    )
-                                })
-                            }
-                        </div>}
+            {pending && <div className="loader"> </div>}
+
+            {movies && <Movieslist movies={movies} title="All movies"/>}
+
+            {movies && <Movieslist movies={movies} title="Action movies"/>}
+
+            {movies && <Movieslist movies={movies} title="2023 movies"/>}
+
+            {movies && <Movieslist movies={movies} title="hollywood movies"/>}
+
+            {movies && <Movieslist movies={movies} title="kannada movies"/>}
+
+            {movies && <Movieslist movies={movies} title="All movies"/>}
+
+
+            {/* {movies && <Movieslist movies={movies.filter((movie)=>{ return movie.genre.includes("Action")})} title="Action movies"/>}
+
+            {movies && <Movieslist movies={movies.filter((movie)=>{return movie.genre.includes("Adventure")})} title="Adventure movies"/>} */}
+
 
         </div>
     );
