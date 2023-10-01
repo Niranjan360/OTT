@@ -13,6 +13,7 @@ const Movieslist = ({movies , title}) => {
                                             <Link to={`/details/${movie.id}`}>
                                                 <img src={movie.poster} alt=""/>
                                                 <h1>Moviename : {movie.movieName} </h1>
+                                                <h1>rating : {movie.rating} </h1>
                                                 <h4>Genre : {movie.genre.toString()} </h4>
                                             </Link>
                                         </div>

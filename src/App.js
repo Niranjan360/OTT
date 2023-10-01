@@ -6,6 +6,7 @@ import {BrowserRouter , Routes , Route} from 'react-router-dom'
 import Addmovie from './comp/Addmovie';
 import Profile from './comp/Profile';
 import Moviedetails from './comp/Moviedetails';
+import Update from './comp/Update';
 
 function App() {
   return (
@@ -14,8 +15,13 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
+          
           <Route path='/add' element={<Addmovie/>}/>
+          
           <Route path='/profile' element={<Profile/>}/>
+
+          <Route path='/update/:id' element={<Update/>}/>
+
           <Route path='/details/:id' element={<Moviedetails/>}/>
         </Routes>
     </div>

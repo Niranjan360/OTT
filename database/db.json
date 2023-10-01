@@ -9,7 +9,7 @@
       "hero": "Rakshit Shetty",
       "heroine": "Rukmini Vasanth",
       "director": "Hemanth M.Rao",
-      "rating": "4.5 stars",
+      "rating": "4.5",
       "genre": [
         "Drama",
         "Romantic"
@@ -33,7 +33,6 @@
       "trailer": "https://www.youtube.com/embed/hcJ1ZHHahMA?si=ytfHftE3eLMUUoI6"
     },
     {
-      "id": 2,
       "synopsis": "Anand (Anand Deverakonda) and Vaishnavi (Vaishnavi Chaitanya) have been together since they were in school. A new boy (Viraj Ashwin) and a new lifestyle change it all for these lovers.",
       "poster": "https://m.media-amazon.com/images/M/MV5BNThmOTIzOGMtOGRlYi00OWZkLWI3Y2EtY2FhZmY5MThmNjBmXkEyXkFqcGdeQXVyNjQ1MDcxNzM@._V1_FMjpg_UX1000_.jpg",
       "banner": "https://cdn.123telugu.com/content/wp-content/uploads/2023/07/Baby.jpg",
@@ -41,9 +40,10 @@
       "hero": "Anand Deverakonda",
       "heroine": "Vaishnavi Chaitanya",
       "director": "Sai Rajesh Neelam",
-      "rating": "4.5 stars",
+      "rating": "4.5",
       "genre": [
-        "Drama"
+        "Drama",
+        "Romace"
       ],
       "casting": [
         "Vaishnavi Chaitanya as Vaishnavi Vaishu",
@@ -52,14 +52,19 @@
         "Nagendra Babu as Vaishnavi's father",
         "Prabhavati Varma as Anand's mother",
         "Lirisha Kunapareddy as Vaishnavi's mother",
-        "Harsha Chemudu as Harsha, Anand's friend",
-        "Sathvik Anand as Sathvik, Anand's friend",
-        "Kusuma Degalamari as Kusuma, Vaishnavi's friend",
-        "Kirrak Seetha as Seetha, Vaishnavi's college mate",
+        "Harsha Chemudu as Harsha",
+        " Anand's friend",
+        "Sathvik Anand as Sathvik",
+        " Anand's friend",
+        "Kusuma Degalamari as Kusuma",
+        " Vaishnavi's friend",
+        "Kirrak Seetha as Seetha",
+        " Vaishnavi's college mate",
         "Vadlamani Srinivas as Viraj's father",
         "Sai Prasad Goud as Financer"
       ],
-      "trailer": "https://www.youtube.com/embed/_npN4uwDMLk?si=pPrjyrMeAD243WwZ"
+      "trailer": "https://www.youtube.com/embed/_npN4uwDMLk?si=pPrjyrMeAD243WwZ",
+      "id": 2
     },
     {
       "id": 3,
@@ -70,7 +75,7 @@
       "hero": "RajiniKanth",
       "heroine": "",
       "director": "Nelson DilipKumar",
-      "rating": "4.5 stars",
+      "rating": "4.5",
       "genre": [
         "Action",
         "Comedy"
@@ -92,28 +97,28 @@
       "trailer": "https://www.youtube.com/embed/Y5BeWdODPqo?si=LCavGAdONk3X6ojK"
     },
     {
-        "id": 4,
-        "synopsis": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
-        "poster": "https://i.etsystatic.com/23402008/r/il/9219f8/2326581048/il_fullxfull.2326581048_5a78.jpg",
-        "banner": "https://i.pinimg.com/originals/82/ac/de/82acde7fc5bbe1787c563c2d420f8b47.jpg",
-        "movieName": "Guardians of the Galaxy",
-        "hero": "Chris Pratt",
-        "heroine": "Vin Diesel",
-        "director": "James Gunn",
-        "rating": "4.8 stars",
-        "genre": [
-          "Action",
-          "Adventure",
-          "Sci-Fi"
-        ],
-        "casting": [
-          "Chris Pratt",
-          "Vin Diesel",
-          " Bradley Cooper",
-          "Zoe Saldana"
-        ],
-        "trailer": "https://www.youtube.com/embed/JqcncLPi9zw?si=t4seLtAV2qye8-5c"
-      },
+      "id": 4,
+      "synopsis": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
+      "poster": "https://i.etsystatic.com/23402008/r/il/9219f8/2326581048/il_fullxfull.2326581048_5a78.jpg",
+      "banner": "https://i.pinimg.com/originals/82/ac/de/82acde7fc5bbe1787c563c2d420f8b47.jpg",
+      "movieName": "Guardians of the Galaxy",
+      "hero": "Chris Pratt",
+      "heroine": "Vin Diesel",
+      "director": "James Gunn",
+      "rating": "4.8",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "casting": [
+        "Chris Pratt",
+        "Vin Diesel",
+        " Bradley Cooper",
+        "Zoe Saldana"
+      ],
+      "trailer": "https://www.youtube.com/embed/JqcncLPi9zw?si=t4seLtAV2qye8-5c"
+    },
     {
       "synopsis": "Following clues to the origin of mankind, a team finds a structure on a distant moon, but they soon realize they are not alone.",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTY3NzIyNTA2NV5BMl5BanBnXkFtZTcwNzE2NjI4Nw@@._V1_FMjpg_UX1000_.jpg",
@@ -122,7 +127,7 @@
       "hero": "Logan Marshall",
       "heroine": "Noomi Rapace",
       "director": "Ridley Scott",
-      "rating": "4.6 stars",
+      "rating": "4.6",
       "genre": [
         "Adventure",
         "Mystery",
@@ -144,7 +149,7 @@
       "hero": "James McAvoy",
       "heroine": " Anya Taylor-Joy",
       "director": "M. Night Shyamalan",
-      "rating": "4.9 stars",
+      "rating": "4.9",
       "genre": [
         "Horror",
         "Thriller"
@@ -165,7 +170,7 @@
       "hero": "Matthew McConaughey",
       "heroine": "Reese Witherspoon",
       "director": "Christophe Lourdelet",
-      "rating": "4.1 stars",
+      "rating": "4.1",
       "genre": [
         "Animation",
         "Comedy",
@@ -187,7 +192,7 @@
       "hero": "Reese Witherspoon",
       "heroine": "Matthew McConaughey",
       "director": "Christophe Lourdelet",
-      "rating": "3.8 stars",
+      "rating": "3.8",
       "genre": [
         "Action",
         "Adventure",
@@ -209,7 +214,7 @@
       "hero": "Matt Damon",
       "heroine": " Andy Lau",
       "director": "Yimou Zhang",
-      "rating": "4.2 stars",
+      "rating": "4.2",
       "genre": [
         "Action",
         "Adventure",
@@ -231,7 +236,7 @@
       "hero": "Ryan Gosling",
       "heroine": "Emma Stone",
       "director": "Damien Chazelle",
-      "rating": "",
+      "rating": "8",
       "genre": [
         "Comedy",
         "Drama",
@@ -253,7 +258,7 @@
       "hero": "Essie Davis",
       "heroine": "Andrea Riseborough",
       "director": "Sean Foley",
-      "rating": "3.9 stars",
+      "rating": "3.9",
       "genre": [
         "Comedy"
       ],
@@ -273,7 +278,7 @@
       "hero": "Charlie Hunnam",
       "heroine": "Sienna Miller",
       "director": "James Gray",
-      "rating": "3.5 stars",
+      "rating": "3.5",
       "genre": [
         "Action",
         "Adventure",
@@ -295,7 +300,7 @@
       "hero": "Chris Pratt",
       "heroine": "Jennifer Lawrence",
       "director": "Morten Tyldum",
-      "rating": "4.7 stars",
+      "rating": "4.7",
       "genre": [
         "Adventure",
         "Drama",
@@ -308,6 +313,26 @@
         "Laurence Fishburne"
       ],
       "trailer": "https://www.youtube.com/embed/7BWWWQzTpNU?si=F4MgQ8sV_2SwmZNN"
+    },
+    {
+      "synopsis": "A high-octane action thriller that outlines the emotional journey of a man who is set to rectify the wrongs in society.",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/jawan-et00330424-1693892482.jpg",
+      "banner": "https://assets-in.bmscdn.com/iedb/movies/images/mo…e/listing/xxlarge/jawan-et00330424-1693892482.jpg",
+      "movieName": "Jawan",
+      "hero": "sharuk khan",
+      "heroine": "nayanatara",
+      "director": "atlee",
+      "rating": "4",
+      "genre": [],
+      "casting": [
+        "srk ",
+        " nayanatara ",
+        " deepika ",
+        " yogi babu ",
+        " priyamani"
+      ],
+      "trailer": "https://youtu.be/COv52Qyctws?si=Brz-9MnUbsd2yUTd",
+      "id": 5
     }
   ]
 }

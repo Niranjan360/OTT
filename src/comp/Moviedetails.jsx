@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 
 const Moviedetails = () => {
 
@@ -21,7 +21,7 @@ const Moviedetails = () => {
                 setPending(false);
             })
             .catch((err)=>{setError(err.message);})
-        } , 5000)
+        } , 100)
     } ,[] )
 
 
@@ -48,6 +48,8 @@ const Moviedetails = () => {
                         <img src={movie.banner} alt="" />
                         <h1>{movie.movieName}</h1>
                         <button onClick={deleteMovie}>delete movie</button>
+
+                        <Link to={`/update/${id}`}><button> update movie </button></Link>
                     </div>}
             
         </div>
