@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
+import Navbar from "./Navbar";
 
 const Moviedetails = () => {
 
@@ -34,12 +35,14 @@ const Moviedetails = () => {
             })
             .then(()=>{
             //navigate to diiferent comp
-            navigate("/");
+            navigate("/home");
             })
         }
     }
 
-    return ( 
+    return (
+        <>
+        <Navbar/>
         <div className="movie-details">
 
             {pending && <div className="loader"> </div>}
@@ -53,6 +56,7 @@ const Moviedetails = () => {
                     </div>}
             
         </div>
+        </>
     );
 }
 export default Moviedetails;

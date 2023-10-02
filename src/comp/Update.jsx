@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Navbar from "./Navbar";
 
 const Update = () => {
 
@@ -87,13 +88,15 @@ const Update = () => {
             // navigate to different comp
 
             toast.success("Movie has been updated successfully");
-            setTimeout(()=>{nav("/")} , 2000)
+            setTimeout(()=>{nav("/home")} , 2000)
         })
 
     }
 
 
     return ( 
+        <>
+        <Navbar/>
         <div className="add-movie">
             <h1>Update movie</h1>
             <form onSubmit={updateMovie}>
@@ -127,6 +130,7 @@ const Update = () => {
             </form>
             <ToastContainer />
         </div>
+        </>
     );
 }
 

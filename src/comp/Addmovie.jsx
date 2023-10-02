@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Navbar from "./Navbar";
 
 const Addmovie = () => {
 
@@ -65,6 +66,8 @@ const Addmovie = () => {
 
 
     return ( 
+        <>
+        <Navbar/>
         <div className="add-movie">
             <h1>Add new movie</h1>
             <form onSubmit={addNewMovie}>
@@ -98,6 +101,7 @@ const Addmovie = () => {
             </form>
             <ToastContainer />
         </div>
+        </>
     );
 }
 

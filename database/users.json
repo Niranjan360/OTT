@@ -1,5 +1,25 @@
 {
-    "users" : [
-        {"name":"gunda","email": "gunda@gmail.com", "password":"gunda@123","phone":9876543211 ,"id":1}
-    ]
+  "users": [
+    {
+      "name": "gunda",
+      "email": "gunda@gmail.com",
+      "password": "gunda@123",
+      "phone": 9876543211,
+      "id": 1
+    },
+    {
+      "name": "niranjan",
+      "email": "nimi@gmail.com",
+      "phone": "9876543212",
+      "password": "nira@2023",
+      "id": 2
+    },
+    {
+      "name": "ka",
+      "email": "ka@gmail.com",
+      "phone": "8765432199",
+      "password": "ki@2023",
+      "id": 3
+    }
+  ]
 }

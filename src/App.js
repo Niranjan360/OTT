@@ -7,18 +7,25 @@ import Addmovie from './comp/Addmovie';
 import Profile from './comp/Profile';
 import Moviedetails from './comp/Moviedetails';
 import Update from './comp/Update';
+import Signup from './comp/Signup';
+import Login from './comp/Login';
+import Protect from './comp/Protect';
 
 function App() {
   return (
     <BrowserRouter>
     <div className="App">
-        <Navbar/>
         <Routes>
-          <Route path='/' element={<Home/>}/>
+
+          <Route path='/' element={<Signup/>}/>
+
+          <Route path='/login' element={<Login/>}/>
+
+          <Route path='/home' element={<Home/>}/>
           
-          <Route path='/add' element={<Addmovie/>}/>
+          <Route path='/add' element={<Protect Child={Addmovie}/>}/>
           
-          <Route path='/profile' element={<Profile/>}/>
+          <Route path='/profile' element={<Protect Child={Profile}/>}/>
 
           <Route path='/update/:id' element={<Update/>}/>
 

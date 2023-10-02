@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Movieslist from "./Movieslist";
+import Navbar from "./Navbar";
 
 const Home = () => {''
 
@@ -23,6 +24,9 @@ const Home = () => {''
 
 
     return ( 
+        <>
+        <Navbar/>
+
         <div className="home">
             
             <hr />
@@ -50,6 +54,7 @@ const Home = () => {''
 
 
         </div>
+        </>
     );
 }
 export default Home;

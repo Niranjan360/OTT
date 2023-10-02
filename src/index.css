@@ -210,3 +210,36 @@ fieldset{
   background-color: white;
   color: #0B0C10;
 }
+
+
+
+/* ------------------login------------- */
+
+.login-cont , .signup-cont{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-cont form , .signup-cont form{
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;   
+  border: 2px solid black;
+  width: 40%;
+  height: 50vh;
+}
+.login-cont input , signup-cont input{
+  display: block;
+  padding: 2%;
+  margin: 2% auto;
+}
+.login-cont a , signup-cont a{
+  text-decoration: none;
+}
+
+
