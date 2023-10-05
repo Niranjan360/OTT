@@ -10,6 +10,7 @@ import Update from './comp/Update';
 import Signup from './comp/Signup';
 import Login from './comp/Login';
 import Protect from './comp/Protect';
+import Search from './comp/Search';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route path='/login' element={<Login/>}/>
 
           <Route path='/home' element={<Home/>}/>
+
+          <Route path='/search' element={<Search/>}/>
           
           <Route path='/add' element={<Protect Child={Addmovie}/>}/>
           

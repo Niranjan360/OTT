@@ -13,12 +13,11 @@ const Protect = ({Child}) => {
             return true;
         }
     }
-
     return (
     <>
-            {
-                validate() ? <Child/> : <Navigate to="/login"/>
-            }    
+        {
+            validate() ? <Child/> : <Navigate to="/login"/>
+        }    
     </> );
 }
 

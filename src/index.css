@@ -15,7 +15,7 @@ nav{
   align-items: center;
   position: sticky;
   top: 0px;
-  z-index: 2345;
+  z-index: 1000;
 }
 .logo a{
   font-size: 30px;
@@ -243,3 +243,51 @@ fieldset{
 }
 
 
+#popup{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1001;
+
+  background-color: #00000051;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#popup .cont{
+  background-color: #e52e71;
+  width: 300px;
+  height: 300px;
+  animation: pop 0.5s;
+  position: relative;
+}
+#popup .cont input{
+  display: block;
+  width: 80%;
+  height: 25px;
+  margin: 8px auto;
+  padding-left: 5px;
+}
+
+.cont button:last-child
+{
+  position: absolute;
+  top: -7%;
+  right: -7%;
+}
+
+
+
+@keyframes pop {
+  0%{
+    transform: scaleX(0) scaleY(0);
+  }
+  100%{
+    transform: scaleX(1) scaleY(1);
+  }
+}

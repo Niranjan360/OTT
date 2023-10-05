@@ -8,8 +8,8 @@ const Navbar = () => {
             </div>
 
             <div className="searchbar">
-                <input type="text" placeholder="Search for a movie" />
-                <button>🔍 </button>
+                <Link to="/search"><button>🔍 </button></Link>
+                
             </div>
 
             <div className="nav-links">
